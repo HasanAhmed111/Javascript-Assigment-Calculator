@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="clickToInput('1')">1</button>
+            <button onclick="clickToInput('2')">2</button>
+            <button onclick="clickToInput('3')">3</button>
+            <button onclick="clearInput()">C</button>
+            <button onclick="cutLastInput()">DEL</button>
+            <button onclick="clickToInput('+')">+</button>
+            <button onclick="clickToInput('4')">4</button>
+            <button onclick="clickToInput('5')">5</button>
+            <button onclick="clickToInput('6')">6</button>
+            <button onclick="clickToInput('0')">0</button>
+            <button onclick="clickToInput('-')">-</button>
+            <button onclick="clickToInput('*')">*</button>
+            <button onclick="clickToInput('7')">7</button>
+            <button onclick="clickToInput('8')">8</button>
+            <button onclick="clickToInput('9')">9</button>
+            <button onclick="clickToInput('00')">00</button>
+            <button onclick="clickToInput('/')">/</button>
+            <button onclick="calculateResult()">=</button>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
